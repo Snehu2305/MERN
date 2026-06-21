@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+
+nav{
+    width: 100%;
+    padding: 20px 30px;
+    background-color: white;
+}
+
+nav img{
+    width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 40px;
+}
+
+ul li{
+    display: inline-block;
+    margin: 0 30px;
+    font-size: 18px;
+}
+
+#user{
+    background-color: aqua;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+
+.Hero{
+    width: 100%;
+    padding: 50px;
+}
+
+.div1,
+.div2{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.div1{
+    width: 20%;
+}
+
+.div1 h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#p1{
+    color: rgb(23, 95, 240);
+}
+
+.div1 p{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.div1 button{
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 12px 20px;
+    background-color: rgb(62, 168, 203);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.div2{
+    width: 50%;
+    text-align: center;
+}
+
+.div2 img{
+    width: 400px;
+}

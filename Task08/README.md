@@ -52,9 +52,9 @@
   7. The website will open in your default browser.
 
   ### Alternative Method
-      1. Locate task08.html in File Explorer.
-      2. Double-click the file.
-      3. It will open directly in your web browser
+  1. Locate task08.html in File Explorer.
+  2. Double-click the file.
+  3. It will open directly in your web browser
 
 ## Author
   Snehal Dattatray Kumbhar

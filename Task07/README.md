@@ -5,17 +5,17 @@
 
 
 ## Files
-  -index.html
+  - index.html
         it contains html code for webpage. 
 
-  -style.css
+  - style.css
         it contains styling elements. Media query for responsive webpage.
 
 
 ## How to Run
-  -Download or clone the project.
-  -Open index.html in a web browser.
-  -Interact with reposive webpage.
+  - Download or clone the project.
+  - Open index.html in a web browser.
+  - Interact with reposive webpage.
 
 
 ## Author

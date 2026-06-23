@@ -43,11 +43,11 @@
 ## How to run
   1. Download or clone the project files.
   2. Ensure the following files are in the same folder:
-            - task08.html
-            - task08.css
+            - index.html
+            - style.css
   3. Open the project folder in Visual Studio Code.
   4. Install the Live Server extension (if not already installed).
-  5. Right-click on task08.html.
+  5. Right-click on index.html.
   6. Select Open with Live Server.
   7. The website will open in your default browser.
 

@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    position: fixed;
+   top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    background-color: white;
+    z-index: 1000;    
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    border: 1px solid gray;
+    box-shadow: 0 0 10px gray;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+#bt{
+    padding: 8px;
+    width: 80px;
+    border-radius: 12px;
+    background-color: rgb(192, 227, 235);
+    color: rgb(15, 123, 166);
+    border: none;
+}
+
+.searchbar{
+    position: fixed;
+    top: 90px; /* adjust based on header height */
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 999;
+    display: flex;
+}
+
+.search{
+    margin: 30px;
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid rgb(162, 159, 159);
+    width: 250px;
+    display: flex;
+}
+
+.search img{
+    width: 30px;
+    margin-left: auto;
+}
+
+
+#input{
+    border: none;
+    margin: 5px;
+}
+
+#input:focus{
+    border: none;
+    outline: none;
+}
+
+#find{
+    margin-top: 30px;
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    color: aliceblue;
+}
+
+#student-container{
+    margin-top: 200px;
+    display: grid;
+     grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+}
+
+.card{
+    padding: 15px;
+    border: 1px solid #956969;
+    border-radius: 10px;
+    margin : 10px;
+}
+
+#find:hover{
+    width: 95px;
+    height: 45px;
+    background-color: rgb(101, 175, 203);
+    color: rgb(255, 255, 255);
+}

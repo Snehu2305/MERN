@@ -33,6 +33,22 @@ divideNumber(84, 12)
     console.log(err.message)
 })
 
+divideNumber(120, 12)
+.then((ans) => {
+     console.log("dividing 84 by 12")
+    console.log("The answer is: ", ans)
+}).catch((err) => {
+    console.log(err.message)
+})
+
+divideNumber(900, 9)
+.then((ans) => {
+     console.log("dividing 84 by 12")
+    console.log("The answer is: ", ans)
+}).catch((err) => {
+    console.log(err.message)
+})
+
 divideNumber(10, 0)
 .then((ans) => {
     console.log("The answer is: ", ans)

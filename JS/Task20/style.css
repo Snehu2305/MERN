@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(216, 220, 223);
+}
+
+/* Navbar */
+
+nav{
+    width: 100vw;
+    height: 10vh;
+    padding: 1vh 2vw;
+}
+
+nav img{
+    width: 6vw;
+    min-width: 60px;
+    vertical-align: middle;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 3vw;
+}
+
+ul li{
+    display: inline-block;
+    margin: 0 2vw;
+    font-size: 1.2vw;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#user{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10vh;
+    padding: 1vw;
+    background-color: aqua;
+    border-radius: 8px;
+}
+
+/* Hero Section */
+
+.Hero{
+    width: 100vw;
+    height: 70vh;
+    padding: 5vh 5vw;
+}
+
+/* Left Side */
+
+.div1{
+    display: inline-block;
+    width: 40vw;
+    vertical-align: middle;
+}
+
+.div1 h1{
+    font-size: 3vw;
+    margin-bottom: 3vh;
+}
+
+#p1{
+    color: rgb(23,95,240);
+    display: inline;
+}
+
+.div1 p{
+    font-size: 1.2vw;
+    line-height: 1.8;
+}
+
+button{
+    margin-top: 3vh;
+    padding: 1.5vh 2vw;
+    background-color: rgb(62,168,203);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1vw;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button a{
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: rgb(23,95,240);
+    transform: scale(1.05);
+}
+
+
+
+.div2{
+    display: inline-block;
+    width: 40vw;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.div2 img{
+    width: 30vw;
+    max-width: 100%;
+}
+
+@media(min-width:768px) and (max-width:1023px){
+    .div1 h1{
+    font-size: 2vw;
+    margin-bottom: 2vh;
+    }
+
+    .div1 p{
+    font-size: 1.2vw;
+    }
+
+    #user{
+    margin-left: 30px;
+    padding: 7px 10px;
+}
+
+}
+
+
+@media(max-width:767px){
+
+    ul li{
+        display:none;
+    }
+
+    .Hero{
+        display:flex;
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .div1,
+    .div2{
+        width:100%;
+    }
+
+    .div1 h1{
+        font-size:8vw;
+    }
+
+    .div1 p{
+        font-size:4vw;
+    }
+
+    button{
+        font-size:4vw;
+    }
+
+    .div2 img{
+        width:60vw;
+    }
+}
+
+.achievements{
+    width: 100%;
+    display: flex;
+    gap:20px;
+    font-size: large;
+    padding: 30px;
+    background-color: rgba(11, 91, 210, 0.82);
+}
+
+.achieve{
+    display: inline-block;
+    width: 200px;
+    font-size: larger;
+}
+
+.bookService{
+    display: flex;
+    margin: 70px;
+    font-size: large;
+    gap: 50px;
+    justify-content: center;
+
+}
+
+.price, .price1, .price2, .price3, .price4, .price5{
+    color: blue;
+}
+
+#lastLine{
+    color: blue;
+    margin: 20px;
+}
+.ourServices{
+    padding: 10px;
+    flex-basis: 45%;
+    background-color: white;
+
+}
+
+.itemList img{
+    width: 20px;
+}
+
+.itemList th, td{
+    padding: 15px;
+}
+
+.priceTable{
+    height: auto;
+
+}
+
+.AddedItems{
+    padding: 60px;
+    gap: 20px;
+    flex-basis: 35%;
+    background-color: white;
+}
+
+.AddedItems h3{
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+td[colspan="3"]{
+    text-align: center;
+    padding: 5px;
+    color: gray;
+}
+
+tfoot{
+    font-weight: bold;
+}
+
+td img{
+    width: 80px;
+}
+
+.form{
+    margin: 30px 0;
+}
+
+.features{
+    margin: 30px;
+}
+
+.features table{
+    border-collapse: collapse;
+}
+
+.features td{
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.subscriptionMain{
+    background-color: rgb(42, 159, 206);
+    display: flex;
+    padding: 20px;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.takeInput{
+    display: flex;
+    gap: 40px;
+}
+.subscription{
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.subscription h1{
+    color: white;
+    margin: 20px;
+    padding: 20px;
+}
+
+.subscription input{
+    background-color:  rgb(37, 128, 164);
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+}
+
+.subscription input::placeholder{
+    color:  rgb(130, 210, 242);
+    text-align: center;
+}
+
+.subscription button{
+    background-color: white;
+    color: rgb(42, 159, 206);
+    width: 300px;
+    border-radius: 10px;
+}
+
+.subscription button:hover{
+    background-color: rgb(218, 213, 213);
+    color: rgb(52, 99, 118);
+}
+
+.contactInfo{
+    background-color: #d9d9d9;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    padding: 30px 50px;
+    gap: 40px;
+
+    flex-wrap: wrap;
+}
+
+.aboutUs,
+.links,
+.contactUs,
+.followUs{
+    flex: 1;
+    min-width: 200px;
+}
+
+.aboutUs{
+    text-align: center;
+}
+
+.aboutUs img{
+    width: 90px;
+}
+
+.aboutUs p{
+    max-width: 320px;
+    margin: 10px auto;
+    line-height: 1.6;
+}
+
+.links{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.links ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links li{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+}
+
+.links a:hover{
+    color: rgb(42, 159, 206);
+}
+.contactUs{
+     margin-top: 30px;
+    text-align: center;
+}
+
+.contactUs p{
+    margin-top: 10px;
+}
+
+
+.followUs{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.icons img{
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+}

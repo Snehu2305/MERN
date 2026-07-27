@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body>
+    <h2>Forms in HTML:</h2>
+    <form action="index.html">
+     <label for="fName"> first name: </label>
+     <input id="fName" type="text" minlength="5" maxlength="12" required placeholder="Please enter your first name">
+
+     <label for="mName">Middle name: </label>
+     <input id="mName" type ="text" value="dk">
+
+     <label for="lName">last name: </label>
+     <input id="lName" type="text" disabled><br><br>
+
+
+     <label for="age">age: </label>
+     <input id="age" type="number"><br><br>
+
+     <label for="email">Email: </label>
+     <input id="email" type="email" name="" id=""><br><br>
+
+     <label for="date">Date of joining: </label>
+     <input id="date" type="date"><br><br>
+
+     <label for="pass">password: </label>
+     <input id="pass" type="password"><br><br>
+
+     <p>Enter your shirt size: </p>
+     <input type="radio" name="shirtSize" id="small" value="small">
+     <label for="small">small size</label>
+     <input type="radio" name="shirtSize" id="med" checked value="medium">
+     <label for="med">medium size</label>
+     <input type="radio" name="shirtSize" id="large" value="large">
+     <label for="large">large size</label>
+     <br><br>
+
+     <p>Select known languages: </p>
+     <input type="checkbox" name="lang" id="english" value="English">
+     <label for="english">English</label>
+     <input type="checkbox" name="lang" id="Marathi" checked value="Marathi">
+     <label for="Marathi">Marathi</label>
+     <input type="checkbox" name="lang" id="Hindi" value="Hindi">
+     <label for="Hindi">Hindi</label>
+     <br><br>
+
+     <label for="clr">Please select the color for your shirt: </label>
+     <input type="color" name="" id="clr">
+     <br><br>
+
+     <label for="paymentOption">Please select a payment option: </label>
+     <select name="payment" id="paymentOption">
+        <option value=""></option>
+        <option value="upi">UPI</option>
+        <option value="gpay">GPay</option>
+        <option value="cod">Cash On Delivery</option>
+     </select>
+
+     <br><br>
+     <label for="cmts">Please Provide your valuable feedback: </label>
+     <textarea name="cmt" id="cmts" rows="10" cols="120"></textarea>
+
+     <input type="reset">
+     <input type="submit">
+    </form>
+</body>
+</html>

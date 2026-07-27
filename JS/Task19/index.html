@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- LEFT SECTION -->
+    <div class="left">
+
+        <!-- Added Items -->
+        <div class="card">
+            <h2>Added Items</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>S.No</th>
+                        <th>Service Name</th>
+                        <th>Price</th>
+                    </tr>
+                    <tbody>
+
+                    </tbody>
+                </thead>
+
+                
+
+                <tfoot>
+                    <tr>
+                        <td colspan="2" class="total-amount">Total Amount</td>   
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+
+        <div class="card">
+            <h3>Book Now</h3>
+
+            <form>
+
+                <label>Full Name</label>
+                <input type="text" placeholder="John Doe">
+
+                <div class="row">
+
+                    <div class="field">
+                        <label>Email ID</label>
+                        <input type="email" placeholder="mail@gmail.com">
+                    </div>
+
+                    <div class="field">
+                        <label>Phone Number</label>
+                        <input type="text" placeholder="9999999999">
+                    </div>
+
+                </div>
+
+                <button type="submit" id="submit">
+                    Book Now
+                </button>
+
+            </form>
+        </div>
+
+    </div>
+
+    
+    <div class="card service-card">
+
+        <h2>Browse Our Services</h2>
+
+        <p>
+            Click on the add to cart button to add the
+            services to your cart or press skip.
+        </p>
+
+        <hr>
+
+        <img class="service-img"
+            src="https://cdn-icons-png.flaticon.com/512/3082/3082037.png"
+            alt="service image"
+        >
+
+        <div class="service-info">
+
+            <h2 class="service-name">Stain Removal</h2>
+
+            <h2 class="price">
+                ₹500.00
+            </h2>
+
+        </div>
+
+        <div class="buttons">
+
+            <button class="skip">
+                Skip Item
+            </button>
+
+            <button class="add">
+                Add Item
+            </button>
+
+        </div>
+
+        <hr>
+
+        <p class="note">
+            Add the items to the cart and book now
+        </p>
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>

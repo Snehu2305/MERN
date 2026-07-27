@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    border: 15px solid blueviolet;
+     padding: 35px;   /* internal spacing */
+     margin: 25px;    /* external space */
+     width: 250px;
+     height: 250px;
+}

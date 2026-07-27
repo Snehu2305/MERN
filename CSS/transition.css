@@ -1,0 +1,47 @@
+.box{
+   width: 200px;
+   height: 200px;
+   background-color: aqua;
+   margin: 100px auto; 
+   transition: 1s;
+   transition-duration: 0.9s;
+
+   /* transition-property: background-color;  choose one property on which you want to apply transition */
+   /* transition-property: all;       apply transition on all properties*/
+   /* best practice */
+   transition-property: background-color, border-radius;
+
+   transition-delay: 0.5s;
+
+   transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.box:hover{
+    background-color: rgb(90, 205, 167);
+    border-radius: 50%;
+    transform: rotate(120deg);
+}
+
+/* nav{
+    background-color: black;
+    color: aliceblue;
+} */
+
+.list{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.item{
+    font-size: 1.2rem;
+    transition: 0.2s ease-in;
+}
+
+.item:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(208, 129, 199);
+    cursor: pointer;
+    transform: translateY(-12px);
+}
+

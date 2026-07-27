@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaundryHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <img src="images/logo.png" alt="">
+        
+        <ul>
+            <li><a href="#Hero">Home</a></li>
+            <li><a href="#services">Services</a>
+            </li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+
+    <span id="user">Username</span>    
+    </nav>
+
+    <section class="Hero">
+        <div class="div1">
+            <h1>Revitalize Your Clothes with Expert <span id="p1">Laundry Services!</span></h1>
+            
+            <p>Form premium dry cleaning to swift wash and fold, we deliver care and convenience. Schedule a pickup and rediscover the freshness of your clothes today!</p>
+            <br>
+            <button><a href="#services">Book a service today!</a></button>
+        </div>
+
+        <div class="div2">
+            <img src="images/laundry.png" alt="Laundry">
+        </div>
+
+    </section>
+
+
+    <section>
+        <div class="achievements">
+            <h3>Our Achievements</h3>
+            <p class="achieve"><h3>15+</h3>
+            Laundry Services</p><br>
+            <p class="achieve"><h3>240+</h3>
+            Happy Customers</p><br>
+            <p class="achieve"><h3>2+ Yrs</h3>
+            Experience</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="bookService">
+
+           <div class="ourServices" id="services">
+                <h2>Our Services</h2>
+                <p>Click on the Add to Add The Services To Your Cart</p>
+
+                <div class="itemList">
+                   <table>
+                        <tr class="items">
+                            <td><img src="images/dryCleaning.png" alt=""></td>
+                            <td> <p class="title"> Dry cleaning</p></td>
+                            <td><p class="price">₹ 200.00</p></td>
+                            <td> <button class="add" id="add1">Add item ➕</button></td>
+                        </tr>
+
+                         <tr class="items">
+                            <td><img src="images/folding.png" alt=""></td>
+                            <td> <p class="title1">Wash & Fold</p></td>
+                            <td><p class="price1">₹ 100.00</p></td>
+                            <td> <button class="add" id="add2">Add item ➕</button></td>
+                        </tr>
+
+                         <tr class="items">
+                            <td> <img src="images/stainRemover.png" alt=""></td>
+                            <td><p class="title2">Stain Removal</p></td>
+                            <td><p class="price2">₹ 500.00</p></td>
+                            <td><button class="add" id="add3">Add item ➕</button></td>
+                        </tr>
+
+                         <tr class="items">
+                            <td><img src="images/leather.png" alt="">
+                            </td>
+                            <td><p class="title3">Leather & suede Cleaning</p></td>
+                            <td><p class="price3">₹ 999.00</p></td>
+                            <td> <button class="add" id="add4">Add item ➕</button></td>
+                        </tr>
+
+                         <tr class="items">
+                            <td><img src="images/wedding.png" alt="">
+                            </td>
+                            <td> <p class="title4">Wedding Dress Cleaning</p></td>
+                            <td> <p class="price4">₹ 2800.00</p></td>
+                            <td> <button class="add" id="add5">Add item ➕</button></td>
+                        </tr>
+
+                         <tr class="items">
+                            <td> <img src="images/ironing.png" alt="">
+                            </td>
+                            <td><p class="title5">Ironing</p></td>
+                            <td><p class="price5">₹ 30.00</p></td>
+                            <td><button class="add" id="add6">Add item ➕</button></td>
+                        </tr>
+                   </table>
+                   <hr>
+                  <p id="lastLine"> ℹ️ Add the items to the cart and book now</p>
+                </div>
+           </div>
+
+      
+        <div class="AddedItems">
+
+            <div class="priceTable">
+                <h3>Added Items</h3>
+              <table>
+                <thead>
+                <tr>
+                    <th>Sr.no</th>
+                    <th>Service name</th>
+                    <th>Price</th>
+                </tr>
+                </thead>
+
+                <tbody class="tbody">
+                     <tr>
+                        <td colspan="3"><img src="images/iButton.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">No Services added yet</td>
+                    </tr>
+                    <tr>
+                         <td colspan="3">Add items to the cart from the services bar</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                 <tr>
+                    <td colspan="2" class="total">Total Amount</td>
+                    <td class="Amount">0</td>
+                </tr>
+                </tfoot>
+
+                
+              </table>  
+
+            </div>
+
+            <hr>
+            
+            <div class="form">
+                <form action="">
+             <h3>Book now</h3> 
+              <p>Full Name</p>
+              <input type="text" name="name" id="name" placeholder="John Deo" required>
+
+              <p>Email ID</p>
+              <input type="text" id="email" placeholder="mail@gmail.com" required>
+              <p>Phone Number</p>
+              <input type="phone" id="phone" placeholder="0000000000" required>
+              <br>
+
+           
+            </form>
+
+              <button id="bookNow">Book Now</button>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="Newsletter">
+        
+        <div class="features">
+
+            <table>
+            <tr>
+                <td><img src="images/feature1.png" alt="Premium Services"></td>
+                <td><img src="images/customerSupport.png" alt="customer Support"></td>
+                <td><img src="images/fastDelivery.png" alt="Fast Delivery"></td>
+                <td><img src="images/affortable.png" alt="Affortable Price"></td>
+
+            </tr>
+
+            <tr>
+                <td><h3>Premium Services</h3></td>
+                <td><h3>Quick Support</h3></td>
+                <td><h3>Hassle Free Delivery</h3></td>
+                <td><h3>Affortable Prices</h3></td>
+            </tr>
+
+            <tr>
+                <td><p>High-quality laundry care with  <br> attention to every detail for the <br> best results.</p></td>
+                <td><p>Fast and friendly assistance  <br> to help you with your laundry <br> needs anytime.</p></td>
+                <td><p>Convenient pickup and delivery  <br>  service right at your doorstep.</p></td>
+                <td><p>Quality laundry services at <br> budget-friendly prices <br> with no hidden charges.</p></td>
+            </tr>
+            </table>
+
+        </div>
+
+        <div class="subscriptionMain">
+        
+            <h1>Subscribe to our <br>
+                newsletter.</h1>
+            
+            <div class="subscription">
+
+            <div class="takeInput">
+            <input type="text" id="full-name" placeholder="Full name">
+            <input type="email" id="SubscribeEmail" placeholder="Email">
+            </div>
+             <button id="subscribe">Subscribe</button>
+        </div>
+           
+        </div>  
+        
+        <div class="contactInfo">
+        <div class="aboutUs" id="about">
+            <img src="images/logo.png" alt=""> 
+            <h3>About Us</h3>
+            <p>We provide reliable, affordable, and high-quality laundry services with convenient pickup and delivery to make your life easier.</p>
+        </div>
+
+        <div class="links">
+            <h3>Important Links</h3>
+             <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Terms of Use</a></li>
+                <li><a href="">Refund Policy</a></li>
+             </ul>
+
+        </div>
+
+        <div class="contactUs" id="contact">
+            <h3>Contact</h3>
+            <p>mail@site.com</p>
+            <p>+91 9123567890</p>
+        </div>
+
+        <div class="followUs">
+            <h3>Follow Us</h3>
+
+            <div class="icons">
+            <img src="images/insta.png" alt="">
+            <img src="images/facebook.png" alt="">
+            <img src="images/twitter.png" alt="">
+            <img src="images/UTubeLogo.png" alt="">
+        </div>
+        </div>
+
+        </div>
+
+    </section>
+
+   
+   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

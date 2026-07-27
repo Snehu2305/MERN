@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 2px solid crimson;
+    height: 400px;
+    display: grid;
+
+    /* gap= row-gap + column-gap */
+    /* gap: 10px; */
+   
+    row-gap: 16px;
+    column-gap: 6px;
+
+    grid-template-columns: 200px 200px 200px;
+
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; 
+    to avoid repeatation of 1fr =>*/
+    /* grid-template-columns: repeat(4, 1fr); */
+
+    /* grid-template-columns: 2fr 1fr; */
+    /* grid-template-rows: 150px 70px 110px; */
+
+    /* give height to remaining grids */
+    /* grid-auto-rows: 120px; */
+
+    /*justify-content => center, space-around, space-between, space evenly, extreme start, extreme end, baseline */
+    /* justify-content: center; */
+    
+    /* default- stretch */
+    /* align-content: center; */
+}
+
+.box{
+    border: 2px solid green;
+    padding: 12px;
+}
+
+#box-1{
+    background-color: aqua;
+    /* justify-self: stretch */
+
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+
+    /* grid-column: grid-column-start + grid-column-end; */
+   
+    /* grid-column: 1 / 3;     = grid-column: 1 / -1; */
+
+    /* grid-row: 1 / 4; */        /*= grid-row: 1 / span 3;*/
+
+    grid-area: 1 / 1 / 3 / 4;
+}
+
+#box-5{
+    background-color: aquamarine;
+    /* justify-self: center; */
+}
+
+#box-3{
+    background-color: cadetblue;
+    /* justify-self: end; */
+}
+
+#box-7{
+    background-color: cornflowerblue;
+
+    /* horizontal layout */
+    /* justify-self: start; */
+
+    /* vertical layout */
+    /* align-items: center; */
+}
+

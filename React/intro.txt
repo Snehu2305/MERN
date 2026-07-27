@@ -1,0 +1,5 @@
+1. React is a library.
+2. core concepts - states, hooks, ui manipulations, jsx, component reusability, props, etc
+3. Additionsl Addons - router doom
+4. React doesn't have SOE, router, etc
+ 

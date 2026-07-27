@@ -1,0 +1,48 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+p{
+    color: red;
+}
+
+h2{
+    color: aliceblue;
+    background-color: black;
+}
+
+/* #pId{
+    color: brown;
+} */
+
+.select1{
+    color: blueviolet;
+    font-family: cursive;
+}
+
+.headingStyle{
+    font-size: larger;
+    color: blueviolet;
+}
+
+#pId, #hId{
+    color: rgb(10, 32, 32);
+    background-color: beige;
+}
+
+#descSel p{
+    color: darkblue;
+    background-color: aquamarine;
+}
+
+/* direct child  */
+
+#directChild > p{
+    color: blueviolet;
+    background-color: azure;
+}
+
+p:hover{
+  color: green;
+}

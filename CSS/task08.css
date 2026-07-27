@@ -1,0 +1,183 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+}
+
+/* NAVBAR */
+
+nav{
+    width:100%;
+    padding:1vh 2vw;
+    position:relative;
+}
+
+nav img{
+    width:6vw;
+    min-width:60px;
+    vertical-align:middle;
+}
+
+.desktop-menu{
+    display:inline-block;
+    vertical-align:middle;
+    margin-left:3vw;
+}
+
+.desktop-menu li{
+    display:inline-block;
+    margin:0 2vw;
+    font-size:1.2vw;
+}
+
+#user{
+    display:inline-block;
+    padding:10px 15px;
+    background-color:aqua;
+    border-radius:8px;
+    margin-left:4vw;
+}
+
+/* HAMBURGER BUTTON */
+
+#bt{
+    display:none;
+    border:none;
+    background:white;
+    font-size:28px;
+    cursor:pointer;
+    padding:5px 10px;
+}
+
+/* MOBILE MENU */
+
+#menuList{
+    display:none;
+}
+
+/* HERO */
+
+.Hero{
+    width:100%;
+    padding:5vh 5vw;
+}
+
+.div1,
+.div2{
+    display:inline-block;
+    vertical-align:middle;
+}
+
+.div1{
+    width:40vw;
+}
+
+.div1 h1{
+    font-size:3vw;
+}
+
+#p1{
+    color:#1f6cff;
+}
+
+.div1 p{
+    margin-top:2vh;
+    font-size:1.2vw;
+    line-height:1.7;
+}
+
+.hero-btn{
+    margin-top:3vh;
+    padding:1.5vh 2vw;
+    border:none;
+    border-radius:10px;
+    background-color:#3ea8cb;
+    color:white;
+    cursor:pointer;
+}
+
+.hero-btn:hover{
+    background-color:#1f6cff;
+}
+
+.div2{
+    width:40vw;
+    text-align:center;
+}
+
+.div2 img{
+    width:30vw;
+}
+
+/* MOBILE */
+
+@media(max-width:767px){
+
+    .desktop-menu{
+        display:none;
+    }
+
+    #bt{
+        display:inline-block;
+        float:right;
+    }
+
+    #user{
+        margin-left:20px;
+        font-size:14px;
+    }
+
+    .Hero{
+        text-align:center;
+    }
+
+    .div1,
+    .div2{
+        width:100%;
+    }
+
+    .div1 h1{
+        font-size:8vw;
+    }
+
+    .div1 p{
+        font-size:4vw;
+    }
+
+    .hero-btn{
+        font-size:4vw;
+    }
+
+    .div2 img{
+        width:60vw;
+    }
+
+    /* Show menu on focus */
+
+    #bt:focus + #menuList{
+        display:block;
+        position:absolute;
+        top:100%;
+        right:0;
+        width:50vw;
+        height:100vh;
+        background:black;
+    }
+
+    #menuList ul{
+        margin-top:100px;
+    }
+
+    #menuList li{
+        display:block;
+        color:white;
+        text-align:center;
+        margin:25px 0;
+        font-size:20px;
+    }
+}

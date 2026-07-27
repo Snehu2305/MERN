@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid green; */
+    box-sizing: border-box;
+}
+
+p{
+    width: 60%;
+}
+
+/* a{
+    width: 60%;
+    display: block;
+    height: 125px;
+} */
+
+img{
+    width: 45%;
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+    text-align: right;
+    background-color: black;
+    padding: 30px;
+}
+
+ul > li > a{
+    text-decoration: none;
+}
+li{
+    display: inline;
+}
+
+li > a:hover{
+    color: white;
+}

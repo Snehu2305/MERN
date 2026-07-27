@@ -1,0 +1,17 @@
+/* 
+>>%
+>> vw -> View Width
+>> vh -> view Height
+>> px -> pixel
+>> em -> with respect to parent
+>> rem -> wrt root 
+*/
+
+main{
+    border: 2px solid black;
+    width: 50%;
+}
+
+section{
+    border: 4px dotted green;
+}

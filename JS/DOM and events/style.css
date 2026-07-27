@@ -1,0 +1,22 @@
+.container{
+    background-color: rgb(51, 122, 122);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    width: 500px;
+    padding: 12px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .circle{
+    border-radius: 50%;
+} */

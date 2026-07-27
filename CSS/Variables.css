@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-text-color:#bb2323;
+    --secondary-text-color:#444;
+    --card-background-color:#fff;
+    --parent-background-color:#eee;
+    --spacing-for-margin-padding:20px;
+}
+
+
+.container{
+    padding: 45px;
+     /* --backg-color:aqua;*/   /*variable declaration
+                               local variable*/
+
+    background-color: var(--parent-background-color); 
+    min-height: 100vh;                        
+}
+
+h1{
+    text-align: center;
+    color: var(--primary-text-color);
+}
+
+h2{
+    --backg-color: rgb(134, 134, 209);  /*overwrite the variable*/
+    /* background-color: var(--backg-color); */
+}
+
+.box{
+    padding: var(--spacing-for-margin-padding);
+    margin-block: var(--spacing-for-margin-padding);
+    background-color: var(--card-background-color);
+    border-radius: 5%;
+}
+
+h4{
+    padding: 45px;
+    /* background-color: var(--backg-color, rgb(251, 127, 228)); */
+
+    color: var(--primary-text-color);
+}

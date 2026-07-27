@@ -1,0 +1,53 @@
+.container{
+    width: 650px;
+    height: 650px;
+    background-color: aqua;
+    margin: 100px;
+}
+
+.box{
+    color: rgb(207, 200, 190);
+    width: 100px;
+    height: 100px;
+}
+
+.static{
+    position: static;
+    background-color: rgb(10, 76, 54);
+}
+
+.relate{ /*works according to parent i.e. container*/
+    position: relative;
+    background-color: rgb(12, 159, 110);
+    top: 50px;
+    /* left: 100px; */
+    left: -100px;
+}
+
+.absolute{ /*works according to root element i.e. html util we don't assign position relative to the parent element 
+             e.g. if we give 
+             position: relative 
+             to the parent i.e. container so it will work according to parent*/
+    position: absolute;
+    background-color: rgb(24, 24, 149);
+    left: 0px;
+    top: 0px;
+}
+
+.fix{ /*fixed at it's position and it's used for navigation bar*/
+    position: fixed;
+    background-color: rgb(62, 16, 105);
+    top: 0;
+    left: 0;
+}
+
+.stick{
+    position: sticky;
+    background-color: rgb(74, 128, 20);
+    top: 300px;
+    left: 120px;
+}
+
+.blankspace{
+    height: 400px;
+}

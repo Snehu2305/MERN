@@ -34,6 +34,10 @@
     ```
 ## Snap shots
 
+  <img width="1757" height="716" alt="image" src="https://github.com/user-attachments/assets/5ada8824-c9e9-47d1-b526-e6f9f230dc64" />
+
+  <img width="1732" height="727" alt="image" src="https://github.com/user-attachments/assets/95cd80e8-395f-45e9-ab46-dd716b450f27" />
+
 
 
 ## Author

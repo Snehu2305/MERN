@@ -1,16 +1,51 @@
-# React + Vite
+# React Router Dom
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+  Introducing routing concepts in a React application to enable navigation between
+multiple views or pages. The application has main routes like Home, Gallery, About 
+and Contact. 
 
-Currently, two official plugins are available:
+## Features
+ 1. Navigate through the pages without reload.
+ 2. Uses React Router Dom concept.
+ 3. Clean code.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## How to Run 
+   1. Clone the repository
 
-## React Compiler
+  ```bash
+  git clone <repository-url>
+  ```
+  
+  2. Navigate to the project
+  
+  ```bash
+  cd project-name
+  ```
+  
+  3. Install dependencies
+  
+  ```bash
+  npm install
+  ```
+  
+  4. Start the development server
+  
+  ```bash
+  npm run dev
+  ```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Screenshots
 
-## Expanding the ESLint configuration
+<img width="1757" height="727" alt="image" src="https://github.com/user-attachments/assets/184aa31a-1f5c-4bbd-b684-e0f66ba08d7e" />
+<img width="1762" height="730" alt="image" src="https://github.com/user-attachments/assets/3aae6a21-3038-4348-832e-b8e2a81c6789" />
+<img width="1740" height="715" alt="image" src="https://github.com/user-attachments/assets/6ec513f4-0ec6-443a-ab1a-4caab43aee2c" />
+<img width="1787" height="721" alt="image" src="https://github.com/user-attachments/assets/58f3e1c8-4f11-4f2c-8372-75b7e491c3b9" />
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Author
+   Snehal Dattatray Kumbhar
+
+
+
+

@@ -1,16 +1,33 @@
-# React + Vite
+# React Router Dom
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description 
+ Introducing routing concepts in a React application to enable navigation between multiple views or pages. The application has routes: Dashboard, Login, Signup, Home, Gallery, About, Contact.
 
-Currently, two official plugins are available:
+# Features
+ - Home page with featured artwork
+-  Responsive artwork gallery
+-  Dynamic artwork detail pages
+-  About and Contact pages
+-  Login and Signup UI
+-  Protected Dashboard for authenticated users
+-  Logout functionality
+-  Client-side navigation using React Router
+-  Nested routing with Layout and Outlet
+-  Dynamic routes using URL parameters
+-  Active navigation states with NavLink
+-  Responsive UI with Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Screenshots
 
-## React Compiler
+<img width="1836" height="891" alt="image" src="https://github.com/user-attachments/assets/1061cce3-01fb-4a9b-9087-19b3dc504218" />
+<img width="1827" height="882" alt="image" src="https://github.com/user-attachments/assets/150a0d01-6902-477f-b549-c273144e4278" />
+<img width="1825" height="847" alt="image" src="https://github.com/user-attachments/assets/6258aa12-a1f7-4826-9be3-b1913738e7ab" />
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Author
+  Snehal Dattatray Kumnhar
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+
+

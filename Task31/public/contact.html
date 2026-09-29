@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Snehal’s Creative Corner</title>
+  <style>
+    body{
+    background-color: #000;
+}
+
+.navbar {
+  height: 40px;
+  margin-top: 12px;
+  top: 24px;
+  left: 0;
+  padding: 22px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #141414;     
+  box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.6);
+
+  border-radius: 16px;
+  z-index: 10;
+}
+
+/* LOGO */
+.logo {
+  font-size: 1.6rem;
+  color: #2FE6E0;
+}
+
+/* LINKS */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #e6e6e6;
+  font-size: 1.2 rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #2FE6E0;
+}
+
+.contact-about,
+.contact-section {
+  padding: 48px 8%;
+  background-color: #000;
+}
+
+.section-divider {
+  height: 48px;
+}
+
+
+/* ABOUT BLOCK */
+.contact-about h2 {
+  font-size: 2.2rem;
+  color: #2FE6E0;
+  margin-bottom: 14px;
+}
+
+.contact-about p {
+  color: #aaa;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  max-width: 700px;
+}
+
+/* CONTACT BLOCK */
+.contact-section h2 {
+  font-size: 2.2rem;
+  color: #2FE6E0;
+  margin-bottom: 12px;
+}
+
+.contact-intro {
+  color: #aaa;
+  font-size: 1.4rem;
+  max-width: 500px;
+  margin-bottom: 28px;
+}
+
+/* LINKS */
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.contact-links a {
+  color: #e6e6e6;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.contact-links a:hover {
+  color: #2FE6E0;
+  transform: translateX(4px);
+}
+
+/* FOOTER */
+.site-footer {
+  padding: 32px 8%;
+  background-color: #000;
+  text-align: center;
+}
+
+.footer-title {
+  color: #e6e6e6;
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+}
+
+.footer-subtitle {
+  color: #888;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  .contact-about,
+  .contact-section {
+    padding: 36px 6%;
+  }
+
+  .contact-about h2,
+  .contact-section h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .navbar {
+    position: static;   /* IMPORTANT */
+    height: auto;
+    padding: 14px 16px;
+    border-radius: 16px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 8px;
+  }
+
+  .logo {
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+  }
+}
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">Snehal’s Creative Corner</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">About</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ABOUT BLOCK -->
+  <section class="contact-about">
+    <h2>About</h2>
+    <p>
+      I’m Snehal, an artist exploring mandala art, drawings, and rangoli.
+      My work focuses on symmetry, patience, and mindful creativity.
+      Snehal’s Creative Corner is a space to share this artistic journey.
+    </p>
+  </section>
+
+  <div class="section-divider"></div>
+
+
+  <!-- CONTACT BLOCK -->
+  <section class="contact-section">
+    <h2>Let’s Connect</h2>
+    <p class="contact-intro">
+      For mandala art, creative work, or collaborations.
+    </p>
+
+    <div class="contact-links">
+      <a href="mailto:yourname@email.com">
+        ✉️ snehaldattatraykumbhar@gmail.com
+      </a>
+
+      <a href="https://www.youtube.com/@SnehalCreativeCorner" target="_blank">
+        ▶️ YouTube — Snehal’s Creative Corner
+      </a>
+    </div>
+  </section>
+
+ <!-- footer -->
+  <footer class="site-footer">
+  <p class="footer-title">Snehal’s Creative Corner</p>
+  <p class="footer-subtitle">Art & Mandalas by Snehal</p>
+</footer>
+
+</body>
+</html>

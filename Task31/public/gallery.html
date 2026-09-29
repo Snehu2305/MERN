@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery | Snehal’s Creative Corner</title>
+  <style>
+    /* GALLERY PAGE */
+.gallery {
+  background-color: #000;  
+  padding: 40px 8% 80px;
+}
+
+body{
+    background-color: #000;
+}
+
+/* NAVBAR */
+.navbar {
+  height: 40px;
+  margin-top: 12px;
+  top: 24px;
+  left: 0;
+  padding: 22px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #141414;     
+  box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.6);
+
+  border-radius: 16px;
+  z-index: 10;
+}
+
+/* LOGO */
+.logo {
+  font-size: 1.6rem;
+  color: #2FE6E0;
+}
+
+/* LINKS */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #e6e6e6;
+  font-size: 1.1 rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #2FE6E0;
+}
+
+
+.gallery-title {
+  font-size: 3rem;
+  color: #2FE6E0;
+  margin-bottom: 10px;
+}
+
+.gallery-subtitle {
+  font-size: 1.1rem;
+  color: #aaa;
+  margin-bottom: 50px;
+}
+
+/* GRID */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+
+.category-card {
+  position: relative;
+  height: 280px;
+  overflow: hidden;
+  border-radius: 14px;
+}
+
+.category-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;     
+  object-position: center;
+  transition: transform 0.4s ease;
+  filter: brightness(1);
+  
+}
+
+.category-card .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.64);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.category-card h3 {
+  color: #2FE6E0;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+/* hover */
+.category-card:hover img {
+  transform: scale(1.05);
+  filter: brightness(1);
+}
+
+
+.site-footer {
+  padding: 32px 8%;
+  background-color: #000;
+  text-align: center;
+}
+
+.footer-title {
+  color: #e6e6e6;
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+}
+
+.footer-subtitle {
+  color: #888;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+
+  /* Navbar fix */
+  .navbar {
+    position: static;
+    padding: 12px;
+  }
+
+  .navbar-inner {
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px;
+  }
+
+  .logo {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+  }
+
+  /* Push content correctly */
+  .main-content {
+    padding-top: 40px;
+  }
+
+  /* Hero fix */
+  .hero,
+  .page-header {
+    min-height: auto;
+    justify-content: flex-start;
+    padding-top: 40px;
+  }
+
+  .hero h1 {
+    font-size: 40px;
+  }
+
+  .hero p {
+    font-size: 18px;
+  }
+}
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">Snehal’s Creative Corner</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="gallery.html" class="active">Gallery</a></li>
+      <li><a href="contact.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- GALLERY -->
+  <section class="gallery">
+
+    <h1 class="gallery-title">Gallery</h1>
+    <p class="gallery-subtitle">Explore by Category</p>
+
+    <div class="gallery-grid">
+
+      
+     <a href="roundMandala.html" class="card-link">
+      <div class="category-card">
+        <img src="/Images/Hero.jpg" alt="Round Mandala">
+        <div class="overlay">
+          <h3>Round Mandala</h3>
+        </div>
+      </div>
+      </a>
+
+
+      <a href="Festival.html" class="card-link">
+      <div class="category-card">
+        <img src="/Images/Navratri.jpg" alt="Festival Mandala">
+        <div class="overlay">
+          <h3>Festival Mandala</h3>
+        </div>
+      </div>
+      </a>
+
+      <a href="creative.html" class="card-link">
+      <div class="category-card">
+        <img src="/Images/star.jpg" alt="Creative Mandala">
+        <div class="overlay">
+          <h3>Creative Mandala</h3>
+        </div>
+      </div>
+      </a>
+
+      
+       <a href="Rangoli.html" class="card-link">
+      <div class="category-card">
+        <img src="/Images/peacockRangoli.jpg" alt="Rangoli Art">
+        <div class="overlay">
+          <h3>Rangoli Art</h3>
+        </div>
+      </div>
+      </a>
+
+      <a href="drawing.html" class="card-link">
+      <div class="category-card">
+        <img src="/Images/sketch.jpg" alt="Drawings">
+        <div class="overlay">
+          <h3>Drawings</h3>
+        </div>
+      </div>
+      </a>
+
+    </div>
+  </section>
+
+
+
+  <!-- footer -->
+  <footer class="site-footer">
+  <p class="footer-title">Snehal’s Creative Corner</p>
+  <p class="footer-subtitle">Art & Mandalas by Snehal</p>
+</footer>
+
+</body>
+</html>

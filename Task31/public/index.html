@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Snehal's Creative Corner</title>
+ <style>
+    /* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Georgia', serif;
+}
+
+/* NAVBAR */
+.navbar {
+  width: 100%;
+  position: absolute;
+  top: 24px;
+  left: 0;
+  padding: 22px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #141414;     
+  box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.6);
+
+  border-radius: 16px;
+  z-index: 10;
+}
+
+
+
+
+
+/* LOGO */
+.logo {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #2FE6E0;   
+}
+
+/* NAV LINKS */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #f5f5f5;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #2FE6E0;
+}
+
+
+/* BODY */
+body {
+  background-color: #000;
+  color: #f5f5f5;
+}
+
+/* HERO SECTION */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  gap: 60px; 
+  padding-top: 140;               
+  padding: 60px 8%;
+}
+
+/* LEFT TEXT */
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 5rem;         
+  font-weight: 500;
+  margin-bottom: 30px;
+  color: #2FE6E0;
+}
+
+
+.hero-text p {
+  font-size: 2.3rem;       
+  line-height: 1.6;
+  color: #2FE6E0;
+  font-weight: 400;
+}
+
+
+
+.hero-text span {
+  display: block;
+  margin-top: 10px;
+  font-size: 1.6rem;
+  font-style: italic;
+  color: #2FE6E0;
+}
+
+
+
+/* BUTTON */
+.hero-btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 28px;
+  border: 1px solid #2FE6E0;
+  color: #2FE6E0;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.hero-btn:hover {
+  background-color: #2FE6E0;
+  color: #000;
+}
+
+/* RIGHT IMAGE */
+.hero-image img {
+  width: 380px;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #2FE6E0;   
+  box-shadow: 0 0 40px rgba(255, 255, 255, 0.12);
+}
+
+
+/* FOOTER */
+.site-footer {
+  padding: 32px 8%;
+  background-color: #000;
+  text-align: center;
+}
+
+.footer-title {
+  color: #e6e6e6;
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+}
+
+.footer-subtitle {
+  color: #888;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+}
+
+
+
+@media (max-width: 1100px) {
+  .hero {
+    padding: 48px 6%;
+  }
+
+  .hero-text h1 {
+    font-size: 3rem;
+  }
+
+  .hero-text p {
+    font-size: 1.1rem;
+  }
+
+  .hero-image .circle {
+    width: 320px;
+    height: 320px;
+  }
+}
+
+
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 32px 5%;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text p {
+    font-size: 0.95rem;
+  }
+
+  .hero-image .circle {
+    width: 220px;
+    height: 220px;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  /* Navbar fix */
+  .navbar {
+    position: static;
+    padding: 12px;
+  }
+
+  .navbar-inner {
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px;
+  }
+
+  .logo {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+  }
+
+  /* Push content correctly */
+  .main-content {
+    padding-top: 40px;
+  }
+
+  /* Hero fix */
+  .hero,
+  .page-header {
+    min-height: auto;
+    justify-content: flex-start;
+    padding-top: 40px;
+  }
+
+  .hero h1 {
+    font-size: 40px;
+  }
+
+  .hero p {
+    font-size: 18px;
+  }
+}
+ </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo">
+    Snehal’s Creative Corner
+  </div>
+
+  <ul class="nav-links">
+    <li><a href="FrontPage.html">Home</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="contact.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    
+    <!-- LEFT TEXT -->
+    <div class="hero-text">
+      <h1>Snehal’s Creative Corner</h1>
+      <p>
+        Mandala & Creative Art <br />
+        <span>Artwork signed as Gouri</span>
+      </p>
+
+      <a href="gallery.html" class="hero-btn">View Gallery</a>
+    </div>
+
+    <!-- RIGHT IMAGE -->
+    <div class="hero-image">
+      <img src="/Images/profile.jpg" alt="Mandala Art">
+    </div>
+
+  </section>
+
+
+  <!-- footer -->
+  <footer class="site-footer">
+  <p class="footer-title">Snehal’s Creative Corner</p>
+  <p class="footer-subtitle">Art & Mandalas by Snehal</p>
+</footer>
+
+</body>
+</html>
